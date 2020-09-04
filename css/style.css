@@ -16,8 +16,9 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+
 span{
-    color: grey;
+    color: goldenrod;
 }
 
 .navbar-nav a:hover{
@@ -91,7 +92,7 @@ span{
     opacity: 0.5;
 }
 
-
+/*box-3*/
 .box-3{
     border: 1px solid #ccc;
     background-color: #ccc;
@@ -119,6 +120,7 @@ span{
    border-bottom: 3px solid red;
 }
 
+/*carousel*/
 .box-4{
     padding: 20px;
 }
@@ -152,6 +154,7 @@ span{
     color: #000;
 }
 
+/*grid images*/
 .box-5{
    max-height: 180vh;
     padding: 30px;
@@ -217,7 +220,7 @@ figure{
     background: #cccc;
 }
 
-
+/*products*/
 .box-6{
     padding: 100px;
 }
@@ -292,7 +295,7 @@ figure{
 
 
 
-
+/*footer*/
 footer{
     width: 100%;
     background: #ccc
@@ -322,12 +325,15 @@ footer{
     position: absolute;
 }
 
+/*copyright*/
 .author{
     background: grey;
     color: #fff;
     text-align: center;
     padding: 3px;
 }
+
+/*more info modal*/
 
 .product-color{
     margin-bottom:10px;
@@ -364,6 +370,24 @@ footer{
     background-color: green;
 }
 
+.color-choose input[type="radio"]#pink + label span{
+    background-color: pink;
+}
+
+.color-choose input[type="radio"]#lightblue + label span{
+    background-color: lightblue;
+}
+
+.color-choose input[type="radio"]#purple + label span{
+    background-color: purple;
+}
+
+.color-choose input[type="radio"]#white + label span{
+    background: white;
+}
+
+
+
 .choose-size{
     margin-bottom: 10px;
 }
@@ -384,6 +408,31 @@ footer{
     border: 2px solid black;
     outline: none;
 }
+
+/*cart*/
+.box-element {
+  box-shadow: hsl(0, 0%, 80%) 0 0 16px;
+  background: #ccc;
+  color: #000;
+  border-radius: 4px;
+  padding: 10px;
+ 
+}
+
+.checkout {
+  float: right;
+}
+
+.col-lg-4,
+.col-lg-6,
+.col-lg-12 {
+  margin-top: 10px;
+}
+
+.row-image {
+  width: 100px;
+}
+
 
 
 
